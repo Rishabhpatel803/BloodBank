@@ -75,7 +75,7 @@
                 <tbody>
                 <%
                     try{
-                        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/bloodbank","lucious","u*r*good1");
+                        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/bloodbank","Your_SQL_Name","Your_password");
                         statement=connection.createStatement();
                         String sqlquery="select * from cmp_schedule";
                         resultSet=statement.executeQuery(sqlquery);

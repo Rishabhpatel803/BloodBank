@@ -82,7 +82,7 @@
                 <tbody>
                 <%
                     try{
-                        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/bloodbank","lucious","u*r*good1");
+                        connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/bloodbank","YOUR_SQL_NAME","YOUR_PASSWORD");
                         statement=connection.createStatement();
                         String sqlquery="select * from hospital";
                         resultSet=statement.executeQuery(sqlquery);
